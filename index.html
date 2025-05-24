@@ -3,15 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="wrap">
-        <h1>Stepan Chepil</h1>
+        <div class="navBar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Works</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+
+        <div class="homePage">
+            <div class="infoPart">
+                <h1>Hi <br> I'm <span>Stepan</span> <br>Front End Developer</h1>
+
+                <a href="">Contact</a>
+            </div>
+
+            <div class="photoPart">
+                <img src="">
+            </div>
+        </div>
+
+        <div class="aboutPage">
+            <div class="photoPart">
+                <img src="" alt="">
+            </div>
+
+            <div class="infoPart">
+                <div class="aboutLabel">About me</div>
+
+                <h2>Creative Front End <br> Developer</h2>
+
+                <div class="textBox">
+                    <p>I am 14. I study at /Creator IT Academy 
+                    and during my studies I have learned 
+                    a lot of web technologies that will be 
+                    useful for creating projects. In addition
+                    to studying, I am fond of 3D modeling 
+                    and some game development.</p>
+                </div>
+
+                <a href="">Download CV</a>
+            </div>
+        </div>
+        <div class="skillsPage">
+            <div class="skillsPart">
+                <div class="skillsLabel">
+                    Skills
+                </div>
+
+                <div class="skillsContainer">
+                    <div class="skill">
+                        <div class="skillInfo">
+                            <i class="fa-brands fa-html5 fa-2x"></i>
+                            HTML
+                        </div>
+
+                        <div class="percent">90%</div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skillInfo">
+                            <i class="fa-brands fa-css3-alt fa-2x"></i>
+                            CSS
+                        </div>
+
+                        <div class="percent">85%</div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skillInfo">
+                            <i class="fa-brands fa-bootstrap fa-2x"></i>
+                            Bootstrap
+                        </div>
+
+                        <div class="percent">100%</div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skillInfo">
+                            <i class="fa-brands fa-sass fa-2x"></i>
+                            Sass
+                        </div>
+
+                        <div class="percent">90%</div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skillInfo">
+                            <i class="fa-brands fa-figma fa-2x"></i>
+                            Figma
+                        </div>
+
+                        <div class="percent">60%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="picturePart">
+                <img src="./img/laptop.jpg">
+            </div>
+        </div>
+
+        <div class="worksPage">
+            <h2 class="WorksLabel">Works</h2>
+
+            <div class="worksContainer">
+                <!-- project1 -->
+                <div class="project project1">
+                    <div class="pictureContainer">
+                       <img src="./img/project1.png">
+                    </div>
+
+                    <div class="technologiesPart">
+                        <div class="technology"><i class="fa-brands fa-html5"></i>HTML</div>
+                        <div class="technology"><i class="fa-brands fa-css3-alt"></i>CSS</div>
+                    </div>
+
+                    <div class="controlsPart">
+                        <a href="https://summertravels.netlify.app/">Explore</a>
+                        <a href="https://github.com/stchll/Summer-Travels">Wiev code</a>
+                    </div>
+                </div>
+
+                <!-- project2 -->
+
+                <div class="project project2">
+                    <div class="pictureContainer">
+                       <img src="./img/project2.png">
+                    </div>
+
+                    <div class="technologiesPart">
+                        <div class="technology"><i class="fa-brands fa-html5"></i>HTML</div>
+                        <div class="technology"><i class="fa-brands fa-css3-alt"></i>CSS</div>
+                    </div>
+
+                    <div class="controlsPart">
+                        <a href="https://desert-store.netlify.app/">Explore</a>
+                        <a href="https://github.com/stchll/desert-store">Wiev code</a>
+                    </div>
+                </div>
+
+                <!-- project3 -->
+
+                <div class="project project3">
+                    <div class="pictureContainer">
+                       <img src="./img/project3.png">
+                    </div>
+
+                    <div class="technologiesPart">
+                        <div class="technology"><i class="fa-brands fa-html5"></i>HTML</div>
+                        <div class="technology"><i class="fa-brands fa-css3-alt"></i>CSS</div>
+                    </div>
+
+                    <div class="controlsPart">
+                        <a href="https://grocery-store1.netlify.app/">Explore</a>
+                        <a href="https://github.com/stchll/grocery-store">Wiev code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="contactsContainer">
+                <h3>Contacts</h3>
+
+                <ul>
+                    <li>+38096083692</li>
+                    <li>chepilstepan11@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="linksContaienr">
+                <h3>Socials</h3>
+
+                <ul>
+                    <li><a href="https://github.com/stchll"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://github.com/stchll"><i class="fa-brands fa-telegram"></i></i></a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
